@@ -9,7 +9,7 @@ module for more on the operations
 provided.
 '''
 
-class BitMask(int):
+class BitMask(init):
     def AND(self, bm):
         return BitMask(self & bm)
     def OR(self, bm):
